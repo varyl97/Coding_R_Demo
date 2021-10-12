@@ -16,9 +16,13 @@ graphics.off()
 
 # Generate some data ------------------------------------------------------
 
-x <- rnorm(n = 100, mean = 0, sd = 1)   #indep. variable
-z <- rnorm(n = 100, mean = 0, sd = 1)   #noise
-y <- 2.2 * x + 1.1 + z
+n <- 30
+m <- 2.2
+b <- 1.1
+
+x <- rnorm(n = n, mean = 0, sd = 1)     #indep. var
+noise <- rnorm(n = n, mean = 0, sd = 1)   
+y <- m * x + b + noise
 
 plot(x, y)
 
