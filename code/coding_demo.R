@@ -22,9 +22,34 @@ b <- 1.1
 
 x <- rnorm(n = n, mean = 0, sd = 1)     #indep. var
 noise <- rnorm(n = n, mean = 0, sd = 1)   
-y <- m * x + b + noise
+y <- m * x + b + noise                  #dep. var
 
-plot(x, y)
+#plot(x, y)   #debug plot
+
+
+
+# Do linear regression ----------------------------------------------------
+
+fit <- glm(y ~ x)
+
+
+
+
+# Plot the results --------------------------------------------------------
+
+par(mar = c(6,7,4,1))
+
+plot(x, y, 
+     xlab = "Normalized velocity", 
+     ylab = "Normalized\nenergy consumption")
+     
+abline(fit)
+
+
+
+
+
+
 
 
 
