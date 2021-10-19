@@ -1,3 +1,3 @@
-# coding-demo
+# Coding and Git Demo
 
-hello is this thing on?
+Trying out some git features within this repository based on the repo from class on 10/14/21. 
