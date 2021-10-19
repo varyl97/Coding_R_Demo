@@ -47,8 +47,12 @@ abline(fit)
 
 
 
+# Attempting a Conflict ---------------------------------------------------
+
+#will use this code to demo a conflict 
 
 
+conflict=TRUE
 
 
 
