@@ -52,8 +52,7 @@ abline(fit)
 #will use this code to demo a conflict 
 
 
-conflict=TRUE
-
+conflict=TRUE #trying this 
 
 
 
