@@ -51,8 +51,10 @@ abline(fit)
 
 #will use this code to demo a conflict 
 
+conflict=TRUE #this is going to be our conflict 
+new.conflict = FALSE
 
-conflict=TRUE #trying this 
+
 
 
 
